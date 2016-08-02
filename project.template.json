@@ -1,0 +1,15 @@
+
+{
+  "name": "stencil-lambda",
+  "description": "Yet another horribly simple starter template for all your Lambda w/ TypeScript & Webpack",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::<replace with your AWS role here>",
+  "environment": {},
+  "handler": "lib.default",
+  "runtime": "nodejs",
+  "hooks": {
+    "build": "../../node_modules/.bin/webpack --config ../../webpack.config.js",
+    "clean": "rm -fr lib"
+  }
+}

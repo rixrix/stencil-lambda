@@ -1,0 +1,36 @@
+{
+  "name": "stencil-lambda",
+  "version": "1.0.0",
+  "description": "Yet another horribly simple starter template for all your Lambda w/ TypeScript & Webpack",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rixrix/stencil-lambda.git"
+  },
+  "keywords": [
+    "lambda",
+    "stencil",
+    "starter",
+    "aws",
+    "typescript",
+    "es6",
+    "webpack"
+  ],
+  "author": "Richard Sentino <richard@mindginative.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rixrix/stencil-lambda/issues"
+  },
+  "homepage": "https://github.com/rixrix/stencil-lambda#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^4.0.30",
+    "@types/webpack": "^1.12.30",
+    "awesome-typescript-loader": "^2.1.1",
+    "json-loader": "^0.5.4",
+    "typescript": "^2.0.0",
+    "webpack": "^1.13.1"
+  }
+}
