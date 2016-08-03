@@ -1,7 +1,7 @@
 {
   "name": "stencil-lambda",
   "version": "1.0.0",
-  "description": "Yet another horribly simple starter template for all your Lambda w/ TypeScript & Webpack",
+  "description": "A horribly simple starter template for all your serverless development on AWS lambda w/ Apex TypeScript & Webpack",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -14,7 +14,10 @@
     "aws",
     "typescript",
     "es6",
-    "webpack"
+    "webpack",
+    "serverless",
+    "template",
+    "boilerplate"
   ],
   "author": "Richard Sentino <richard@mindginative.com>",
   "license": "MIT",
@@ -30,6 +33,7 @@
     "@types/webpack": "^1.12.30",
     "awesome-typescript-loader": "^2.1.1",
     "json-loader": "^0.5.4",
+    "tslint": "^3.14.0",
     "typescript": "^2.0.0",
     "webpack": "^1.13.1"
   }

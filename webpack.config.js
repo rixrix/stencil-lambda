@@ -1,7 +1,7 @@
 // NOTE: paths are relative to each functions folder
 
 var outputFilename = 'index.js';
-var distDir = './lib';
+var distDir = './package';
 var sourceEntryPoint = './index.ts';
 var libraryTarget = 'commonjs2';
 
