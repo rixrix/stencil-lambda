@@ -1,5 +1,3 @@
-// NOTE: paths are relative to each functions folder
-
 var outputFilename = 'index.js';
 var distDir = './package';
 var sourceEntryPoint = './index.ts';
