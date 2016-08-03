@@ -61,7 +61,7 @@ The `package` output path from Webpack maps to the `handler` property in Apex.
 
 ## Note
 
-> The Webpack config has been adsurdly copied from Apex [example](https://github.com/apex/apex/tree/master/_examples/babel-webpack)
+> The Webpack config has been absurdly copied from Apex [example](https://github.com/apex/apex/tree/master/_examples/babel-webpack)
 
 ## License
 
