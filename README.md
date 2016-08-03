@@ -1,11 +1,12 @@
-# Stencil for λ
+# Stencil for [λ](https://aws.amazon.com/lambda/)
 
-A horribly simple starter template for all your serverless development on AWS lambda w/ Apex TypeScript & Webpack.
+A horribly simple starter template for all your serverless development on [AWS lambda](https://aws.amazon.com/lambda/) w/ [Apex](http://www.apex.run), [TypeScript](http://www.typescriptlang.org/) & [Webpack](https://webpack.github.io/).
 
 ## Prerequisite
 
-- NodeJS
-- Apex
+- [NodeJS](https://nodejs.org/en/download/current/) (at least 4.3) recommend 5.x or 6.x
+- [Apex.run](http://www.apex.run)
+- [Amazon Web Services account](https://aws.amazon.com/)
 
 ## How it works
 
@@ -13,6 +14,10 @@ A horribly simple starter template for all your serverless development on AWS la
 
 Most of the time you will be interfacing with Apex command line utility from the build process, deployment
 
+```
+$> apex deploy
+$> apex build
+```
 ### Webpack build
 
 The way Apex run is bit different than your usual NodeJS project.
