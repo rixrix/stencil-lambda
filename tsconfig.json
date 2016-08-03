@@ -6,9 +6,11 @@
         "preserveConstEnums": true,
         "sourceMap": false,
         "moduleResolution": "node",
-        "noLib": true,
+        "noLib": false,
         "pretty": true,
-        "target": "es5",
-        "rootDir": "./functions"
-    }
+        "target": "es5"
+    },
+    "include": [
+        "functions/**/*.ts"
+    ]
 }
